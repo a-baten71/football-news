@@ -5,27 +5,69 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Upcoming matches</title>
+    <!-- Font awesome link -->
+    <script src="https://kit.fontawesome.com/01e5573bd5.js" crossorigin="anonymous"></script>
+    <!-- Css link -->
     <link rel="stylesheet" href="css/style.css">
 
-    <style>
-        
-    </style>
 </head>
 <body>
-    <main>
+    <div class="container">
+        <header class="top-banner">
+            <div class="top-banner-container">
+                <div class="top-banner-info">
+                    <h1 class="heading">The Greatest show on the earth</h1>
+                    <p class="text">Contrary to popular belief, Lorem Ipsum is not simply 
+                        random text. It has roots in a piece of classical Latin literature
+                        from 45 BC, making it over 2000 years old</p>
+                    <a class="top-banner-btn" href="http://" target="_blank" rel="noopener noreferrer">Watch  Live <i class="fas fa-chevron-right btn-indicator"></i></a>
+                </div>
+                <div class="top-banner-img">
+                    <img src="assets/Banner Image.png" alt="">
+                </div>
+            </div>
+        </header>
+
+        <main>
         <div class="main-container">
             <div class="navigation">
-                <a class="nav-link" href="">Upcoming Match</a>
+                <a class="nav-link " id="upcomimg-active" href="">Upcoming Match</a>
                 <a class="nav-link nav-link-margin" href="">All Group</a>
-                <a class="nav-link" href="#">Blog</a>
+                <a class="nav-link" href="index.html">Blog</a>
             </div>
 
-            <div class="matches">
-                <div class="match">
+            <div class="blogs">
+                <div class="blog match-blog">
                     <div class="teams">
                         <img src="/assets/germany Flag.png" 
                         alt="">
                         <h3>VS</h3>
+                        <img src="/assets/Flag.png" alt="">
+                    </div>
+                    <div class="match-info">
+                        <h3 class="blog-heading">Germany VS France</h3>
+                        <p>April 01, 2023, 1.00 AM</p>
+                    </div>
+                </div>
+
+                <div class="blog match-blog">
+                    <div class="teams">
+                        <img src="/assets/germany Flag.png" 
+                        alt="">
+                        <h3>VS</h3>
+                        <img src="/assets/Flag.png" alt="">
+                    </div>
+                    <div class="match-info">
+                        <h3 class="blog-heading">Germany VS France</h3>
+                        <p>April 01, 2023, 1.00 AM</p>
+                    </div>
+                </div>
+
+                <div class="blog match-blog">
+                    <div class="teams">
+                        <img src="/assets/germany Flag.png" 
+                        alt="">
+                        <h3 class="blog-heading">VS</h3>
                         <img src="/assets/Flag.png" alt="">
                     </div>
                     <div class="match-info">
@@ -34,11 +76,11 @@
                     </div>
                 </div>
 
-                <div class="match">
+                <div class="blog match-blog">
                     <div class="teams">
                         <img src="/assets/germany Flag.png" 
                         alt="">
-                        <h3>VS</h3>
+                        <h3 class="blog-heading">VS</h3>
                         <img src="/assets/Flag.png" alt="">
                     </div>
                     <div class="match-info">
@@ -47,11 +89,11 @@
                     </div>
                 </div>
 
-                <div class="match">
+                <div class="blog match-blog">
                     <div class="teams">
                         <img src="/assets/germany Flag.png" 
                         alt="">
-                        <h3>VS</h3>
+                        <h3 class="blog-heading">VS</h3>
                         <img src="/assets/Flag.png" alt="">
                     </div>
                     <div class="match-info">
@@ -60,37 +102,11 @@
                     </div>
                 </div>
 
-                <div class="match">
+                <div class="blog match-blog">
                     <div class="teams">
                         <img src="/assets/germany Flag.png" 
                         alt="">
-                        <h3>VS</h3>
-                        <img src="/assets/Flag.png" alt="">
-                    </div>
-                    <div class="match-info">
-                        <h3>Germany VS France</h3>
-                        <p>April 01, 2023, 1.00 AM</p>
-                    </div>
-                </div>
-
-                <div class="match">
-                    <div class="teams">
-                        <img src="/assets/germany Flag.png" 
-                        alt="">
-                        <h3>VS</h3>
-                        <img src="/assets/Flag.png" alt="">
-                    </div>
-                    <div class="match-info">
-                        <h3>Germany VS France</h3>
-                        <p>April 01, 2023, 1.00 AM</p>
-                    </div>
-                </div>
-
-                <div class="match">
-                    <div class="teams">
-                        <img src="/assets/germany Flag.png" 
-                        alt="">
-                        <h3>VS</h3>
+                        <h3 class="blog-heading">VS</h3>
                         <img src="/assets/Flag.png" alt="">
                     </div>
                     <div class="match-info">
@@ -101,6 +117,27 @@
 
             </div>
         </div>
-    </main>
+        </main>
+    </div> 
 </body>
+<!-- Footer section starts -->
+    <footer>
+    <h2 class="footer-header">Goal</h2>
+    <div class="horizontal">
+        <hr>
+    </div>
+    <div class="lower-footer">
+        <a href="">Contact Us</a>
+        <a href="">Terms of Service</a>
+        <a href="">Privacy Policy</a>
+        <a href="">Privacy Settings</a>
+        <a href="">Goal App</a>
+        <a href="">Goal Live</a>
+    </div>
+    <div class="social-icons">
+        <a href=""><i class="fab fa-facebook footer-icon"></i></a>
+        <a href=""><i class="fab fa-twitter footer-icon"></i></a>
+        <a href=""><i class="fab fa-youtube footer-icon"></i></a>
+    </div>
+    </footer>    
 </html>
