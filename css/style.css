@@ -41,8 +41,17 @@ body{
 .top-banner-info .heading{
     font-size: 60px;
     line-height: 70px;
-
 }
+
+.top-banner:hover .top-banner-info .heading {
+    animation-name: animi;
+    animation-duration: 5s;
+}
+
+@keyframes animi {
+    from {color: #FFFFFF;}
+    to {color: #DD0000;}
+  }
 
 .top-banner-info .text{
     font-size: 16px;
@@ -80,6 +89,11 @@ body{
    
 }
 
+.animation{
+    color: #FFFFFF;
+    background-color: #DD0000;
+}
+
 /* Main section starts */
 main{
     margin: 100px 0;
@@ -99,7 +113,6 @@ main{
     height: 300px;
     width: 330px;
     margin-right: 15px;
-    /* width: 20%; */
     border-radius: 10px;
 }
 
@@ -232,7 +245,7 @@ hr{
 .footer-icon{
     padding: 0 20px;
     color:rgb(20, 233, 233);
-    font-size: 40px;
+    font-size: 30px;
 }
 
 /* Upcoming matches */
@@ -240,13 +253,6 @@ hr{
 #upcomimg-active:active{
     background-color: #DD0000;
 }
-
-.matches{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    row-gap: 20px;
-    column-gap: 20px;
- }
 
  .match{
      display: flex;
@@ -262,6 +268,7 @@ hr{
  .teams{
      display: flex;
      justify-content: space-evenly;
+     align-items: center;
  }
 
 .match-info{
